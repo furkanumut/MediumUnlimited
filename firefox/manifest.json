@@ -22,5 +22,10 @@
         "gecko": {
             "id": "mediumunlimited@itsshivam.com"
         }
-    }
+    },
+    "content_scripts": [
+        "matches":{
+        '*://*.medium.com/*'
+       }    
+    ]
 }
